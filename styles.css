@@ -52,7 +52,8 @@ video.loaded {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 12vh; /* Positioned a little up from the bottom */
     background: radial-gradient(circle, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
     z-index: 10;
     transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.5s;
